@@ -1,17 +1,15 @@
 module Base
 {
-	craftRecipe MakeTomatoPaste
+	craftRecipe Make Tomato Paste
 	{
 		timedAction = Making,
 		Time = 80,
-		Tags = InHandCraft;CanBeDoneFromFloor,
+		Tags = InHandCraft;Cooking,
 		category = Cooking,
 		xpAward = Cooking:1,
-		AutoLearn = Cooking:0,
-
 		inputs
 		{
-			item 8 [Base.Tomato],
+			item 8 [Base.Tomato] flags[InheritFoodAge;ItemCount],
 		}
 		outputs
 		{
