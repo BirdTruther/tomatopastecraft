@@ -1,10 +1,18 @@
 module Base
 {
-    recipe Make Tomato Paste
-    {
-        Tomato=8,
-        Result:TomatoPaste,
-        Time:120.0,
-        Category:Cooking,
-    }
+	craftRecipe Make Tomato Paste
+	{
+		time = 80,
+		tags = AnySurfaceCraft;Cooking,
+		category = Cooking,
+		xpAward = Cooking:1,
+		inputs
+		{
+			item 8 [Base.Tomato],
+		}
+		outputs
+		{
+			item 1 Base.TomatoPaste,
+		}
+	}
 }
