@@ -1,19 +1,10 @@
-module TomatoPasteCraft
+module Base
 {
     recipe Make Tomato Paste
     {
-        Base.Tomato=8,
-        Result:Base.TomatoPaste=1,
+        Tomato=8,
+        Result:TomatoPaste,
         Time:120.0,
         Category:Cooking,
-    }
-
-    recipe Make Tomato Paste (Skilled)
-    {
-        Base.Tomato=4,
-        Result:Base.TomatoPaste=1,
-        Time:80.0,
-        Category:Cooking,
-        SkillRequired:Cooking=6,
     }
 }
