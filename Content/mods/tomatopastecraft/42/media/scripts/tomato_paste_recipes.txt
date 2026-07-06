@@ -16,4 +16,22 @@ module Base
 			item 1 Base.TomatoPaste,
 		}
 	}
+
+	craftRecipe Make Tomato Paste Efficiently
+	{
+		timedAction = Making,
+		Time = 80,
+		Tags = InHandCraft;Cooking,
+		category = Cooking,
+		xpAward = Cooking:1,
+		SkillRequired = Cooking:6,
+		inputs
+		{
+			item 4 [Base.Tomato] flags[InheritFoodAge;ItemCount],
+		}
+		outputs
+		{
+			item 1 Base.TomatoPaste,
+		}
+	}
 }
