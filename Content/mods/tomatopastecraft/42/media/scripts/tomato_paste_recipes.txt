@@ -6,7 +6,6 @@ module TomatoPasteCraft
         Result:Base.TomatoPaste=1,
         Time:120.0,
         Category:Cooking,
-        OnCreate:Recipe.OnCreate.Default,
     }
 
     recipe Make Tomato Paste (Skilled)
@@ -16,6 +15,5 @@ module TomatoPasteCraft
         Time:80.0,
         Category:Cooking,
         SkillRequired:Cooking=6,
-        OnCreate:Recipe.OnCreate.Default,
     }
 }
